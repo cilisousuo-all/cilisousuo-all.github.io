@@ -1,8 +1,7 @@
 <h2>磁力狗官网入口 - 最佳磁力链接搜索最新网站网页网址</h2>
 <p>磁力狗是干净好用的资源搜索引擎。提供影视、书籍、软件等资源推荐以及整合信息。它利用先进的磁力链接技术，为用户提供方便、高效的文件搜索和下载环境。用户可以通过关键词快速找到所需的电影、电视剧、音乐、软件、游戏等多种类型的资源。无论是最新上映的影视作品，还是经典的小众资源，磁力狗都能轻松找到。此外，磁力狗的界面设计简洁明了，操作非常便捷，用户无需注册账号，即可直接使用搜索功能。⬇</p>
-<p><strong>一键访问：</strong><a href="https://bashi5.cc/site/10001"><strong>磁力狗最新网址</strong></a></p>
-<p><strong>一键访问：</strong><a href="https://bashi5.cc"><strong>磁力导航大全</strong></a></p>
-<p><strong>一键访问：</strong><a href="https://cldq.cc"><strong>磁力大全</strong></a></p>
+<p><strong>一键访问：</strong><a href="https://cildog.com"><strong>磁力狗最新网址</strong></a></p>
+<p><strong>一键访问：</strong><a href="https://cilizhai.net"><strong>磁力导航大全</strong></a></p>
 
 <h3><strong>功能特点</strong></h3>
 <p><strong>强大的搜索功能</strong>：磁力狗是干净好用的磁力搜索引擎！磁力狗采用了先进的搜索算法，能够快速响应用户的查询请求。用户只需输入关键词，即可在全网范围内搜索到符合条件的磁力链接。</p>

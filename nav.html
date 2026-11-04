@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>磁力导航大全 - 免费磁力搜索/BT种子资源入口导航</title>
+<meta name="keywords" content="磁力导航, 磁力搜索, 磁力链工具, BT搜索, 磁力狗, 磁力狐, 资源下载导航">
+<meta name="description" content="磁力导航大全收录国内外热门磁力搜索及BT种子下载平台，提供官方入口及高速搜索工具推荐，界面简洁，是您获取磁力资源、单机游戏、影视资源的必备导航。">
+<link rel="shortcut icon" href="./logo.png">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+<!-- 仅用于卡片图标/标签的颜色类（text-orange-500 等），布局全部由下方内联CSS控制 -->
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;width:100%;min-width:320px;min-height:100vh;background:#f1f5f9;color:#333;font-family:"Chinese Quotes","Inter var","Inter",ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Helvetica,Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";font-size:16px;line-height:24px;font-weight:400;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+a{text-decoration:none;color:inherit}
+h1,h2,h3,p,ol,ul{margin:0;padding:0}
+ol,ul{list-style:none}
+/* 导航 */
+.nav{position:fixed;top:0;left:0;right:0;z-index:50;background:rgba(255,255,255,.92);backdrop-filter:blur(8px);box-shadow:0 1px 3px rgba(0,0,0,.08);transition:all .3s}
+.nav.scrolled{box-shadow:0 4px 10px rgba(0,0,0,.1)}
+.nav-in{max-width:1152px;margin:0 auto;padding:12px 16px;font-size:20px;font-weight:700;color:#1890ff}
+/* 首屏（与原 VitePress hero 数值完全一致） */
+.VPContent{width:100%;max-width:100%;margin:0 auto}
+@media(min-width:960px){.VPContent{padding-top:80px}}
+.VPHome{padding-top:6rem;padding-bottom:96px}
+.VPHero{background:#fff;margin-bottom:20px;margin-top:-80px;padding:128px 24px 48px}
+@media(min-width:640px){.VPHero{padding:128px 48px 64px}}
+@media(min-width:960px){.VPHero{padding:80px 64px 64px}}
+.VPHero>.container{display:flex;flex-direction:column;margin:0 auto;max-width:1100px;text-align:center}
+@media(min-width:960px){.VPHero>.container{flex-direction:row;text-align:left}}
+.VPHero .main{position:relative;z-index:10;order:2;flex-grow:1;flex-shrink:0}
+@media(min-width:960px){.VPHero .main{order:1;width:calc((100% / 3) * 2);max-width:592px}}
+.VPHero .name,.VPHero .text{max-width:392px;letter-spacing:-.4px;line-height:40px;font-size:32px;font-weight:700;white-space:pre-wrap;margin:0 auto}
+@media(min-width:640px){.VPHero .name,.VPHero .text{max-width:576px;line-height:56px;font-size:48px}}
+@media(min-width:960px){.VPHero .name,.VPHero .text{line-height:40px;font-size:56px;margin:0}}
+.VPHero .image{order:1;margin:-76px -24px -48px}
+@media(min-width:640px){.VPHero .image{margin:-108px -24px -48px}}
+@media(min-width:960px){.VPHero .image{flex-grow:1;order:2;margin:0;min-height:100%}}
+.VPHero .image-container{position:relative;margin:0 auto;width:320px;height:320px}
+@media(min-width:640px){.VPHero .image-container{width:392px;height:392px}}
+@media(min-width:960px){.VPHero .image-container{display:flex;justify-content:center;align-items:center;width:100%;height:100%;transform:translate(-32px,0)}}
+.VPHero .image-src{position:absolute;top:50%;left:50%;max-width:350px;max-height:200px;transform:translate(-50%,-50%)}
+@media(min-width:640px){.VPHero .image-src{max-width:400px;max-height:256px}}
+@media(min-width:960px){.VPHero .image-src{max-width:450px;max-height:320px}}
+/* 通用 */
+.wrap{max-width:1152px;margin:0 auto;padding:0 16px}
+.sec-title{display:flex;align-items:center;margin-bottom:32px}
+.sec-title i{display:block;width:6px;height:24px;background:#1890ff;border-radius:9999px;margin-right:12px}
+.sec-title h2{font-size:20px;font-weight:700;color:#1e1e2e}
+.intro{background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:24px;box-shadow:0 4px 6px -1px rgba(0,0,0,.1);font-size:16px;line-height:1.8;color:#666;margin-bottom:40px}
+.intro strong{color:#333}
+
+
+
+
+
+
+/* 主布局 */
+.layout{display:grid;grid-template-columns:minmax(0,1fr);gap:24px;align-items:start;padding:32px 16px}
+.main{min-width:0}
+.grid{display:grid;grid-template-columns:1fr;gap:24px;margin-top:32px}
+@media(min-width:768px){.grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(min-width:1024px){.layout{grid-template-columns:minmax(0,1fr)}}
+/* 卡片 */
+.card{background:#fff;border-radius:12px;padding:24px;box-shadow:0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -2px rgba(0,0,0,.1);text-align:center;display:flex;flex-direction:column;justify-content:space-between;height:100%;transition:all .3s}
+.card:hover{box-shadow:0 20px 25px -5px rgba(0,0,0,.1),0 8px 10px -6px rgba(0,0,0,.1);transform:translateY(-4px)}
+.card-icon{font-size:36px;line-height:40px;margin-bottom:16px}
+.card-title{font-size:18px;font-weight:700;margin-bottom:8px}
+.card-desc{font-size:12px;color:#6b7280;margin-bottom:16px}
+.tags{display:flex;justify-content:center;gap:8px;margin-bottom:16px;flex-wrap:wrap}
+.tag{font-size:10px;padding:2px 8px;border-radius:4px}
+.btn{display:inline-block;background:#1890ff;color:#fff;font-weight:500;padding:8px 24px;border-radius:8px;box-shadow:0 10px 15px -3px rgba(0,0,0,.1);transition:all .3s}
+.btn:hover{background:rgba(24,144,255,.9);transform:translateY(-2px)}
+/* 侧栏 */
+.side{display:flex;flex-direction:column;gap:24px;width:100%}
+.panel{background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 20px 25px -5px rgba(0,0,0,.1),0 8px 10px -6px rgba(0,0,0,.1);border-top:4px solid #ef4444}
+.panel.p2{border-top-color:#6366f1}
+.panel-h{display:flex;align-items:center;color:#fff;padding:12px 20px;background:linear-gradient(to right,#ef4444,#fb923c)}
+.p2 .panel-h{background:linear-gradient(to right,#6366f1,#a855f7)}
+.panel-h i{margin-right:8px}
+.panel-h h2{font-size:16px;font-weight:700;letter-spacing:.025em}
+.panel ol{padding:8px 20px 20px}
+.panel li+li{border-top:1px solid #f3f4f6}
+.panel li a{display:flex;align-items:baseline;gap:12px;padding:10px 0;font-size:14px;color:#4e4e5e;transition:color .2s}
+.panel li a:hover{color:#1890ff}
+.panel li a:hover .tt{text-decoration:underline}
+.no{width:20px;flex-shrink:0;text-align:right;font-weight:700;color:#9ca3af}
+.no.first{color:#1890ff}
+
+
+
+/* 页脚 */
+.footer{border-top:1px solid #e5e5e5;background:#fff;padding:48px 16px;text-align:center;margin-top:0}
+.footer p{font-size:14px}
+.footer .tip{color:#1e1e2e;font-weight:500;margin-bottom:12px;font-size:16px}
+.footer kbd{background:#f3f4f6;padding:4px 8px;border-radius:4px;border:1px solid #e5e7eb;font-family:inherit}
+.footer .cp{color:#9ca3af}
+</style>
+</head>
+<body>
+<nav class="nav" id="navbar"><div class="nav-in">磁力导航大全</div></nav>
+<div class="VPContent" id="VPContent">
+<div id="home" class="VPHome">
+<div class="VPHero has-image">
+ <div class="container">
+  <div class="main">
+   <h1 class="name" style="display: flex; align-items: center; white-space: nowrap;">
+     <span style="color:#111;">磁力导航</span>
+   </h1>
+   <p class="text" style="line-height:1.2rem;margin:10px 0;"><span style="font-size:1.2rem;font-weight:400;"><strong>一站式磁力链接与BT种子搜索聚合平台</strong></span><br /><span style="font-size:1rem;font-weight:400;">整合了全球主流的资源索引站与搜索引擎，<br>助您快速定位游戏、影视及各类互联网资源。<br><strong style="color: red; font-weight: bold;">【热门资源应有尽有 · 一站直达】</strong></span></p>
+  </div>
+  <div class="image"><div class="image-container"><div class="image-bg"></div><img class="VPImage image-src" src="./files/cilisousuo.jpg" alt="磁力导航" style="border-radius:15px;background: #fff;padding: 5px;border: 1px solid #eee;"></div></div>
+ </div>
+</div>
+
+ <section class="wrap" id="entries" style="padding-top:48px;padding-bottom:48px">
+  <div class="sec-title"><i></i><h2>磁力导航大全介绍</h2></div>
+  <div class="intro">磁力导航是一种聚合类的互联网资源检索服务，通过整理全球优质的BT索引站，实现快速获取大容量文件的目的。本导航网站专注于收录和整理全球顶尖的磁力/BT资源站。无论你是寻找热门的 <strong>单机游戏</strong>、<strong>3A大作</strong>，还是习惯从 <strong>RuTracker</strong> 下载高质量镜像，亦或是通过 <strong>磁力狗</strong> 精准找资源，这里都能为你提供最快捷的官方入口。我们涵盖了支持影视、游戏、软件及ACG等领域的专业搜索方案，确保您在获取互联网资源时，拥有最全、最准、最稳定的检索入口。</div>
+ </section>
+
+ <div class="wrap layout">
+  <main class="main">
+   <div class="sec-title"><i></i><h2>热门磁力资源入口</h2></div>
+   <div class="grid"><article class="card"><div class="card-icon text-orange-500"><i class="fa-solid fa-dog"></i></div><h3 class="card-title">磁力狗</h3><p class="card-desc">知名度高，游戏资源覆盖广，包含单机与主机游戏</p><div class="tags"><span class="tag bg-orange-100 text-orange-600">游戏下载</span><span class="tag bg-amber-100 text-amber-600">磁力搜索</span></div><a class="btn" href="https://ciligou.litxdh.com" target="_blank" rel="noopener noreferrer">立即访问</a></article><article class="card"><div class="card-icon text-orange-400"><i class="fa-solid fa-paw"></i></div><h3 class="card-title">磁力狐</h3><p class="card-desc">多源磁力聚合，整合多个BT索引站，更新速度快</p><div class="tags"><span class="tag bg-orange-100 text-orange-600">BT聚合</span><span class="tag bg-red-100 text-red-600">游戏资源</span></div><a class="btn" href="https://cilihu.litxdh.com" target="_blank" rel="noopener noreferrer">立即访问</a></article><article class="card"><div class="card-icon text-gray-700"><i class="fa-solid fa-user-secret"></i></div><h3 class="card-title">老王磁力</h3><p class="card-desc">稳定性与完整度著称，包含大型3A游戏与复古合集</p><div class="tags"><span class="tag bg-gray-100 text-gray-600">磁力下载</span><span class="tag bg-blue-100 text-blue-600">单机游戏</span></div><a class="btn" href="https://laowangcili.litxdh.com" target="_blank" rel="noopener noreferrer">立即访问</a></article><article class="card"><div class="card-icon text-pink-500"><i class="fa-solid fa-tv"></i></div><h3 class="card-title">搜番</h3><p class="card-desc">日式游戏、GALGAME及ACG资源首选</p><div class="tags"><span class="tag bg-pink-100 text-pink-600">ACG游戏</span><span class="tag bg-rose-100 text-rose-600">资源搜索</span></div><a class="btn" href="https://soufan.litxdh.com" target="_blank" rel="noopener noreferrer">立即访问</a></article><article class="card"><div class="card-icon text-yellow-500"><i class="fa-solid fa-bolt"></i></div><h3 class="card-title">skrbt</h3><p class="card-desc">综合型索引平台，适合挖掘冷门与热门游戏作品</p><div class="tags"><span class="tag bg-yellow-100 text-yellow-600">BT索引</span><span class="tag bg-amber-100 text-amber-600">游戏合集</span></div><a class="btn" href="https://skrbt.sodanav.com/" target="_blank" rel="noopener noreferrer">立即访问</a></article><article class="card"><div class="card-icon text-blue-600"><i class="fa-solid fa-users"></i></div><h3 class="card-title">BT联盟</h3><p class="card-desc">老牌聚合网站，论坛式索引，带详细版本说明</p><div class="tags"><span class="tag bg-blue-100 text-blue-600">BT资源</span><span class="tag bg-indigo-100 text-indigo-600">游戏下载</span></div><a class="btn" href="https://btlianmeng.sodanav.com/" target="_blank" rel="noopener noreferrer">立即访问</a></article><article class="card"><div class="card-icon text-yellow-400"><i class="fa-solid fa-lemon"></i></div><h3 class="card-title">磁力柠檬</h3><p class="card-desc">简洁高效，响应速度快，适合精准搜索已知名称</p><div class="tags"><span class="tag bg-yellow-100 text-yellow-700">磁力链接</span><span class="tag bg-green-100 text-green-600">快速搜索</span></div><a class="btn" href="https://ciliningmeng.sodanav.com/" target="_blank" rel="noopener noreferrer">立即访问</a></article><article class="card"><div class="card-icon text-purple-600"><i class="fa-solid fa-magnifying-glass-plus"></i></div><h3 class="card-title">1024bt</h3><p class="card-desc">新手友好，以PC单机和整合版资源为主</p><div class="tags"><span class="tag bg-purple-100 text-purple-600">BT搜索</span><span class="tag bg-fuchsia-100 text-fuchsia-600">单机资源</span></div><a class="btn" href="https://1024bt.litxdh.com" target="_blank" rel="noopener noreferrer">立即访问</a></article><article class="card"><div class="card-icon text-teal-500"><i class="fa-solid fa-list-ol"></i></div><h3 class="card-title">BT1207</h3><p class="card-desc">实用风格，资源数量稳定，热门游戏更新及时</p><div class="tags"><span class="tag bg-teal-100 text-teal-600">游戏磁力</span><span class="tag bg-cyan-100 text-cyan-600">BT下载</span></div><a class="btn" href="https://bt1207.litxdh.com" target="_blank" rel="noopener noreferrer">立即访问</a></article><article class="card"><div class="card-icon text-red-600"><i class="fa-solid fa-globe"></i></div><h3 class="card-title">RuTracker</h3><p class="card-desc">全球知名俄罗斯社区，主机、PC大作及MOD极其丰富</p><div class="tags"><span class="tag bg-red-100 text-red-600">海外BT</span><span class="tag bg-rose-100 text-rose-600">主机游戏</span></div><a class="btn" href="https://rutracker.sodanav.com/" target="_blank" rel="noopener noreferrer">立即访问</a></article><article class="card"><div class="card-icon text-blue-400"><i class="fa-solid fa-cat"></i></div><h3 class="card-title">磁力猫</h3><p class="card-desc">聚合多个平台，适合作为其他站点的资源补充</p><div class="tags"><span class="tag bg-blue-100 text-blue-600">磁力聚合</span><span class="tag bg-cyan-100 text-cyan-600">游戏下载</span></div><a class="btn" href="https://cilimao.litxdh.com" target="_blank" rel="noopener noreferrer">立即访问</a></article><article class="card"><div class="card-icon text-green-500"><i class="fa-solid fa-house"></i></div><h3 class="card-title">磁力屋</h3><p class="card-desc">实用型搜索工具，界面简单，搜索结果直达</p><div class="tags"><span class="tag bg-green-100 text-green-600">磁力搜索</span><span class="tag bg-emerald-100 text-emerald-600">游戏资源</span></div><a class="btn" href="https://ciliwu.litxdh.com" target="_blank" rel="noopener noreferrer">立即访问</a></article><article class="card"><div class="card-icon text-indigo-500"><i class="fa-solid fa-earth-asia"></i></div><h3 class="card-title">磁力星球</h3><p class="card-desc">强调资源广度，新旧作品一网打尽</p><div class="tags"><span class="tag bg-indigo-100 text-indigo-600">资源索引</span><span class="tag bg-violet-100 text-violet-600">游戏下载</span></div><a class="btn" href="https://cilixingqiu.litxdh.com" target="_blank" rel="noopener noreferrer">立即访问</a></article><article class="card"><div class="card-icon text-amber-700"><i class="fa-solid fa-face-smile"></i></div><h3 class="card-title">磁力熊</h3><p class="card-desc">全面覆盖热门PC游戏与整合版，体验流畅</p><div class="tags"><span class="tag bg-amber-100 text-amber-700">BT磁力</span><span class="tag bg-yellow-100 text-yellow-700">单机游戏</span></div><a class="btn" href="https://cilixiong.litxdh.com" target="_blank" rel="noopener noreferrer">立即访问</a></article><article class="card"><div class="card-icon text-gray-800"><i class="fa-solid fa-file-contract"></i></div><h3 class="card-title">磁力熊猫</h3><p class="card-desc">搜索逻辑友好，操作门槛低，适合普通用户</p><div class="tags"><span class="tag bg-gray-100 text-gray-700">磁力下载</span><span class="tag bg-zinc-100 text-zinc-700">游戏搜索</span></div><a class="btn" href="https://cilixiongmao.litxdh.com" target="_blank" rel="noopener noreferrer">立即访问</a></article><article class="card"><div class="card-icon text-black"><i class="fa-solid fa-horse"></i></div><h3 class="card-title">黑马磁力</h3><p class="card-desc">多源结果，访问稳定，优秀的补充选择</p><div class="tags"><span class="tag bg-gray-200 text-gray-800">磁力资源</span><span class="tag bg-slate-200 text-slate-800">游戏下载</span></div><a class="btn" href="https://heimacili.litxdh.com" target="_blank" rel="noopener noreferrer">立即访问</a></article><article class="card"><div class="card-icon text-blue-500"><i class="fa-solid fa-couch"></i></div><h3 class="card-title">磁力宅</h3><p class="card-desc">综合索引入口，覆盖游戏软件多个方向</p><div class="tags"><span class="tag bg-blue-100 text-blue-600">磁力导航</span><span class="tag bg-sky-100 text-sky-600">游戏资源</span></div><a class="btn" href="https://cilizhai.2rdh.com/" target="_blank" rel="noopener noreferrer">立即访问</a></article><article class="card"><div class="card-icon text-indigo-400"><i class="fa-solid fa-infinity"></i></div><h3 class="card-title">无极磁链</h3><p class="card-desc">高效定位，以整合包和热门作品为主</p><div class="tags"><span class="tag bg-indigo-100 text-indigo-600">磁链搜索</span><span class="tag bg-blue-100 text-blue-600">游戏下载</span></div><a class="btn" href="https://wujicilian.2rdh.com/" target="_blank" rel="noopener noreferrer">立即访问</a></article><article class="card"><div class="card-icon text-green-400"><i class="fa-solid fa-leaf"></i></div><h3 class="card-title">磁力草</h3><p class="card-desc">界面简洁，功能专注，快速查找游戏合集</p><div class="tags"><span class="tag bg-green-100 text-green-700">磁力搜索</span><span class="tag bg-emerald-100 text-emerald-700">游戏合集</span></div><a class="btn" href="https://cilicao.2rdh.com/" target="_blank" rel="noopener noreferrer">立即访问</a></article><article class="card"><div class="card-icon text-blue-700"><i class="fa-solid fa-compact-disc"></i></div><h3 class="card-title">HDBeta</h3><p class="card-desc">高清资源与高质量游戏资源的完美结合</p><div class="tags"><span class="tag bg-blue-100 text-blue-800">高清资源</span><span class="tag bg-indigo-100 text-indigo-800">BT搜索</span></div><a class="btn" href="https://hdbeta.2rdh.com/" target="_blank" rel="noopener noreferrer">立即访问</a></article><article class="card"><div class="card-icon text-cyan-600"><i class="fa-solid fa-shuttle-space"></i></div><h3 class="card-title">BTDigg</h3><p class="card-desc">国际化引擎，搜索逻辑强，涵盖多语言版本</p><div class="tags"><span class="tag bg-cyan-100 text-cyan-700">国际磁力</span><span class="tag bg-sky-100 text-sky-700">游戏资源</span></div><a class="btn" href="https://bidigg.2rdh.com/" target="_blank" rel="noopener noreferrer">立即访问</a></article><article class="card"><div class="card-icon text-blue-500"><i class="fa-solid fa-4"></i></div><h3 class="card-title">BT4G</h3><p class="card-desc">稳定索引服务，日常搜索游戏磁力的好帮手</p><div class="tags"><span class="tag bg-blue-100 text-blue-600">BT索引</span><span class="tag bg-indigo-100 text-indigo-600">游戏下载</span></div><a class="btn" href="https://bt4g.2rdh.com/" target="_blank" rel="noopener noreferrer">立即访问</a></article><article class="card"><div class="card-icon text-stone-600"><i class="fa-solid fa-ship"></i></div><h3 class="card-title">海盗湾</h3><p class="card-desc">全球鼻祖，PC、主机及模拟器游戏极其丰富</p><div class="tags"><span class="tag bg-stone-100 text-stone-700">全球BT</span><span class="tag bg-gray-100 text-gray-700">游戏资源</span></div><a class="btn" href="https://thepiratebay.2rdh.com/" target="_blank" rel="noopener noreferrer">立即访问</a></article><article class="card"><div class="card-icon text-red-400"><i class="fa-solid fa-pen-fancy"></i></div><h3 class="card-title">吴签磁力</h3><p class="card-desc">国内常见入口，热门游戏作品快速查找</p><div class="tags"><span class="tag bg-red-100 text-red-600">磁力搜索</span><span class="tag bg-orange-100 text-orange-600">游戏下载</span></div><a class="btn" href="https://wuqiancili.litxdh.com" target="_blank" rel="noopener noreferrer">立即访问</a></article><article class="card"><div class="card-icon text-sky-500"><i class="fa-solid fa-cloud-arrow-down"></i></div><h3 class="card-title">Webtor</h3><p class="card-desc">支持在线解析与播放，获取资源信息更直观</p><div class="tags"><span class="tag bg-sky-100 text-sky-600">在线磁力</span><span class="tag bg-cyan-100 text-cyan-600">资源解析</span></div><a class="btn" href="https://webtor.litxdh.com" target="_blank" rel="noopener noreferrer">立即访问</a></article><article class="card"><div class="card-icon text-slate-500"><i class="fa-solid fa-font"></i></div><h3 class="card-title">abctorrents</h3><p class="card-desc">海外索引站，适合查找英文或国际版游戏</p><div class="tags"><span class="tag bg-slate-100 text-slate-700">海外BT</span><span class="tag bg-zinc-100 text-zinc-700">游戏下载</span></div><a class="btn" href="https://abctorrents.litxdh.com" target="_blank" rel="noopener noreferrer">立即访问</a></article><article class="card"><div class="card-icon text-blue-400"><i class="fa-solid fa-sitemap"></i></div><h3 class="card-title">BTSOW</h3><p class="card-desc">老牌搜索引擎，覆盖面广，更新频率高</p><div class="tags"><span class="tag bg-blue-100 text-blue-500">磁力引擎</span><span class="tag bg-indigo-100 text-indigo-500">游戏搜索</span></div><a class="btn" href="https://btsow.litxdh.com" target="_blank" rel="noopener noreferrer">立即访问</a></article><article class="card"><div class="card-icon text-orange-600"><i class="fa-solid fa-magnifying-glass"></i></div><h3 class="card-title">磁狐搜索</h3><p class="card-desc">聚合多源结果，方便对比不同来源的资源</p><div class="tags"><span class="tag bg-orange-100 text-orange-700">磁力聚合</span><span class="tag bg-amber-100 text-amber-700">游戏下载</span></div><a class="btn" href="https://cihusousuo.litxdh.com" target="_blank" rel="noopener noreferrer">立即访问</a></article><article class="card"><div class="card-icon text-blue-800"><i class="fa-solid fa-gem"></i></div><h3 class="card-title">磁力宝</h3><p class="card-desc">实用型搜索工具，日常游戏搜索体验顺畅</p><div class="tags"><span class="tag bg-blue-100 text-blue-800">磁力搜索</span><span class="tag bg-sky-100 text-sky-800">游戏资源</span></div><a class="btn" href="https://cilibao.litxdh.com" target="_blank" rel="noopener noreferrer">立即访问</a></article><article class="card"><div class="card-icon text-indigo-600"><i class="fa-solid fa-layer-group"></i></div><h3 class="card-title">磁力多</h3><p class="card-desc">资源数量庞大，可作为重要的补充搜索站</p><div class="tags"><span class="tag bg-indigo-100 text-indigo-700">磁力导航</span><span class="tag bg-purple-100 text-purple-700">游戏下载</span></div><a class="btn" href="https://ciliduo.litxdh.com" target="_blank" rel="noopener noreferrer">立即访问</a></article></div>
+  </main>
+ </div>
+
+ </div>
+ <footer class="footer">
+  <p class="tip"><strong>提示：建议按住 <kbd>Ctrl+D</kbd> 键，将本站加入收藏夹，方便随时获取最新磁力入口！</strong></p>
+  <p class="cp">Copyright © 2025 磁力导航大全 - 高效、专业、安全的资源索引平台</p>
+ </footer>
+</div>
+<script>
+window.addEventListener('scroll',function(){document.getElementById('navbar').classList.toggle('scrolled',window.scrollY>50);});
+</script>
+</body>
+</html>
